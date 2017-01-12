@@ -124,6 +124,7 @@ footer img:hover {
 .caption img {
 	display: block;
 	max-width: 100%;
+	border: 1px solid lightgray;
 }
 .caption1 {
 	overflow: hidden;
@@ -247,12 +248,6 @@ info {
 }
 .google:hover {
 	background-color: #dd4c37;
-}
-.pinterest:hover {
-	background-color: #cb2026;
-}
-.dribbble:hover {
-	background-color: #f472a2;
 }
 
 .clearing-thumbs img:hover {
