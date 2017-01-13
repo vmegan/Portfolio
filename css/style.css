@@ -11,8 +11,6 @@ img {
 /* Sidebar */
 
 logooriginal {
-	background-color: #43c5ea;
-	padding: 30px;
 	border-radius: 3px;
 	width: 100%;
 	display: block;
@@ -37,6 +35,7 @@ intro {
 	line-height: 20px;
 	text-align: justify;
 	font-size: 15px;
+	color: #fff
 }
 line {
 	margin: 30px 0px;
@@ -125,9 +124,10 @@ footer img:hover {
 	display: block;
 	max-width: 100%;
 	border: 1px solid lightgray;
+	margin-top: 30px;
 }
 .caption1 {
-	overflow: hidden;
+	/*overflow: hidden;*/
 	border-radius: 3px;
 	-webkit-transition: background 0.3s ease-in-out;
 	-moz-transition: background 0.3s ease-in-out;
@@ -155,7 +155,7 @@ footer img:hover {
 	-webkit-transition: -webkit-transform 0.3s ease-in-out;
 	-moz-transition: -moz-transform 0.3s ease-in-out;
 	transition: transform 0.3s ease-in-out;
-	background-color: #44c5ea;
+	background-color: black;
 }
 .caption1::before {
 	content: attr(data-title);
@@ -226,7 +226,7 @@ info {
 	padding: 8px 14px;
 	margin-left: 5px;
 	border-radius: 3px;
-	background-color: #dddddd;
+	background-color: #000;
 	transition: all .6s;
 	-moz-transition: all .6s;
 	-webkit-transition: all .6s;
@@ -269,9 +269,18 @@ iframe {
 about {
 	margin-top: 20px;
 	display: block;
+	color: #fff
+}
+.about-background{
+	background-color: #ea5c0f;
+	padding: 30px
 }
 about h1 {
 	font-size: 35px;
+	color: black
+}
+about p {
+	margin-bottom: 65px;
 }
 
 /* Button style */
