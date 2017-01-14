@@ -246,10 +246,17 @@ info {
 .twitter:hover {
 	background-color: #39d2fe;
 }
-.google:hover {
-	background-color: #dd4c37;
+.linkedin:hover {
+	background-color: #0077b5;
 }
-
+.github{
+	font-family: 'Carrois Gothic', sans-serif;
+}
+.github:hover {
+	color: #000;
+	background-color: #fff;
+	font-family: 'Carrois Gothic', sans-serif;
+}
 .clearing-thumbs img:hover {
 	cursor: -webkit-zoom-in;
 	cursor: -moz-zoom-in;
@@ -283,6 +290,21 @@ about p {
 	margin-bottom: 65px;
 }
 
+/* Skills Section */
+
+skills {
+	text-align: center;
+}
+.skills-icon {
+	display: inline;
+}
+
+skills h2 {
+	margin-top: 40px
+}
+skills h3 {
+	display: inline
+}
 /* Button style */
 
 .button {
@@ -334,6 +356,10 @@ about p {
 
 form {
 	text-align: center;
+}
+
+contact p {
+	color: #000;
 }
 
 input , textarea {
