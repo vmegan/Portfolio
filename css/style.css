@@ -297,10 +297,13 @@ skills {
 }
 .skills-icon {
 	display: inline;
+	width: 100px
 }
 
-skills h2 {
-	margin-top: 40px
+skills h2, work h2 {
+	margin-top: 40px;
+	text-align: center;
+
 }
 skills h3 {
 	display: inline
@@ -335,21 +338,6 @@ skills h3 {
 }
 .gray {
 	background-color: #919191;
-}
-
-/* Panel style */
-
-.panel {
-	padding: 50px 30px;
-}
-
-.panel p , .panel h5{
-	color: #707070;
-}
-
-.panel img {
-	width: 50px;
-	margin-bottom: 15px;
 }
 
 /* Contact form */
@@ -412,7 +400,6 @@ input , textarea {
 	color: #ffffff;
 }
 
-
 /* Animation by Dan Eden */
 
 .animated{-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-ms-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-duration:1s;-moz-animation-duration:1s;-ms-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s}.animated.hinge{-webkit-animation-duration:2s;-moz-animation-duration:2s;-ms-animation-duration:2s;-o-animation-duration:2s;animation-duration:2s}@-webkit-keyframes fadeIn{0%{opacity:0}100%{opacity:1}}@-moz-keyframes fadeIn{0%{opacity:0}100%{opacity:1}}@-o-keyframes fadeIn{0%{opacity:0}100%{opacity:1}}@keyframes fadeIn{0%{opacity:0}100%{opacity:1}}.fadeIn{-webkit-animation-name:fadeIn;-moz-animation-name:fadeIn;-o-animation-name:fadeIn;animation-name:fadeIn}@-webkit-keyframes bounceInLeft{0%{opacity:0;-webkit-transform:translateX(-2000px)}60%{opacity:1;-webkit-transform:translateX(15px)}80%{-webkit-transform:translateX(-10px)}100%{-webkit-transform:translateX(0)}}@-moz-keyframes bounceInLeft{0%{opacity:0;-moz-transform:translateX(-2000px)}60%{opacity:1;-moz-transform:translateX(15px)}80%{-moz-transform:translateX(-10px)}100%{-moz-transform:translateX(0)}}@-o-keyframes bounceInLeft{0%{opacity:0;-o-transform:translateX(-2000px)}60%{opacity:1;-o-transform:translateX(30px)}80%{-o-transform:translateX(-10px)}100%{-o-transform:translateX(0)}}@keyframes bounceInLeft{0%{opacity:0;transform:translateX(-2000px)}60%{opacity:1;transform:translateX(15px)}80%{transform:translateX(-10px)}100%{transform:translateX(0)}}.bounceInLeft{-webkit-animation-name:bounceInLeft;-moz-animation-name:bounceInLeft;-o-animation-name:bounceInLeft;animation-name:bounceInLeft}
@@ -453,6 +440,17 @@ input , textarea {
 	worksnav , intro {
 		display: none;
 	}
+	.about-background{
+		background-color: #fff!important;
+	}
+	.about-background p{
+		color: #000
+	}
+	.skills-icon, skills h4{
+		width: 30%;
+		font-size: .7em;
+		margin-top: 5px;
+	}
 	footer {
 		margin-top: 10px;
 	}
@@ -478,6 +476,18 @@ input , textarea {
 	line {
 		margin: 10px 0px;
 	}
+	.about-background{
+		background-color: #fff;
+	}
+	.about-background p{
+		color: #000
+	}
+	.skills-icon, skills h4{
+		width: 30%;
+		font-size: .7em;
+		margin-top: 5px;
+	}
+
 	nav a {
 		display: inline;
 		padding: 10px 15px;
