@@ -1,10 +1,10 @@
 <?php
 
 $EmailFrom = Trim(stripslashes($_POST['Email']));
-$EmailTo = "youremail@mail.com"; // <- Please add your email
+$EmailTo = "v.meggy@gmail.com"; // <- Please add your email
 $Subject = "Message from your WebSite contact form";
-$Title = Trim(stripslashes($_POST['Name'])); 
-$Message = Trim(stripslashes($_POST['Message'])); 
+$Title = Trim(stripslashes($_POST['Name']));
+$Message = Trim(stripslashes($_POST['Message']));
 
 // validation
 $validationOK=true;
@@ -22,10 +22,10 @@ $Body .= "Message: ";
 $Body .= $Message;
 $Body .= "\n";
 
-// send email 
+// send email
 $success = mail($EmailTo, $Subject, $Body, "From: <$EmailFrom>");
 
-// redirect to success page 
+// redirect to success page
 if ($success){
   print "<meta http-equiv=\"refresh\" content=\"0;URL=contactthanks.php\">";
 }

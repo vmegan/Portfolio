@@ -120,6 +120,7 @@ footer img:hover {
 	display: block;
 	position: relative;
 }
+
 .caption img {
 	display: block;
 	max-width: 100%;
@@ -163,11 +164,10 @@ footer img:hover {
 	color: #ffffff;
 	padding-left: 10px;
 	padding-right: 10px;
-	font-size: 30px;
+	font-size: 15px;
 	font-weight: 300;
-	padding-top: 25%;
+	padding-top: 19%;
 	text-align: center;
-	line-height: 30px;
 }
 .caption1:hover::before,
 .caption1:hover::after  {
@@ -439,7 +439,7 @@ input , textarea {
 	worksnav , intro {
 		display: none;
 	}
-	.about-background{
+	box .about-background{
 		background-color: #fff!important;
 	}
 	.about-background p{
